@@ -14,7 +14,7 @@
             I build scalable full-stack applications that deliver seamless user experiences.
             Driven by clean UI, usability, and performance optimization.
             Continuously learning and evolving with the latest web technologies.
-            <br><br>
+            <br>
             In addition to web development, I bring strong graphic design skills that help create visually appealing and cohesive user experiences. My expertise includes:
   
 Designing UI mockups, wireframes, and brand assets like logos and icons.
@@ -22,18 +22,10 @@ Designing UI mockups, wireframes, and brand assets like logos and icons.
 Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
 
 Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
-<br><br>
-Combining frontend development and graphic design ensures my applications are both visually striking and highly functional.
+<br>
+Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
           </p>
-          <!-- <div class="buttons">
-            <button class="btn-primary">Hire Me</button>
-            <button class="btn-outline">Let's Talk</button>
-          </div> -->
-          <!-- <div class="socials">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div> -->
+          
         </div>
 
         <div class="hero-image">
