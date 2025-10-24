@@ -72,14 +72,10 @@ Combining frontend development and my backend ensures my applications are both v
       <div class="projects-container">
         <div class="project-card">
           <img src="/src/assets/kgl.png" alt="Project One" />
-          <h2>KGL-Produce Management System</h2>
+          <h2>KGL-Inventory Management System</h2>
           <p>A full-stack web app for managing procurement, sales, and credit in a wholesale produce business.</p>
         </div>
-        <div class="project-card">
-          <img src="/src/assets/pot.png" alt="Project Two" />
-          <h2>Frontend Portfolio</h2>
-          <p>A personal portfolio site to showcase my work and skills as a frontend developer.</p>
-        </div>
+       
         <div class="project-card">
           <img src="/src/assets/jewelry.png" alt="Project Three" />
           <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
@@ -110,18 +106,6 @@ clear navigation to help users explore fitness</p>
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <!-- <section id="contact" class="contact-section">
-      <h1>Contact Me</h1>
-      <p class="contact-intro">Feel free to reach out via this form or connect with me on social media.</p>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn-primary">Send Message</button>
-      </form>
-    </section> -->
-
 <section id="contact" class="contact-section">
   <h1>Contact Me</h1>
   <p>You can reach me directly via email or connect with me on the platforms below:</p>
@@ -135,9 +119,9 @@ clear navigation to help users explore fitness</p>
     </li>
     <li>
       <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+      <a href="https://www.linkedin.com/in/esther-kemigisha/" target="_blank">linkedin.com</a>
     </li>
-    <!-- Add more contact methods as needed -->
+    
   </ul>
 </section>
 
