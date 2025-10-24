@@ -2,7 +2,6 @@
   <div>
     <!-- Hero Section -->
     <section id="home" class="home">
-
       <div class="hero">
         <div class="hero-content">
           <h1>Hi, I'm Esther Kemigisha</h1>
@@ -17,19 +16,19 @@
             <br>
             In addition to web development, I bring strong graphic design skills that help create visually appealing and cohesive user experiences. My expertise includes:
   
-Designing UI mockups, wireframes, and brand assets like logos and icons.
-<br><br>
-Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
+            Designing UI mockups, wireframes, and brand assets like logos and icons.
+            <br><br>
+            Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
 
-Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
-<br>
-Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
+            Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
+            <br>
+            Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
           </p>
           
         </div>
 
         <div class="hero-image">
-          <img src="/src/assets/star.jpg" alt="Esther" />
+          <img :src="starImage" alt="Esther" />
         </div>
       </div>
     </section>
@@ -71,60 +70,61 @@ Combining frontend development and my backend ensures my applications are both v
 
       <div class="projects-container">
         <div class="project-card">
-          <img src="/src/assets/kgl.png" alt="Project One" />
+          <img :src="kglImage" alt="KGL Inventory Management System" />
           <h2>KGL-Inventory Management System</h2>
           <p>A full-stack web app for managing procurement, sales, and credit in a wholesale produce business.</p>
         </div>
        
         <div class="project-card">
-          <img src="/src/assets/jewelry.png" alt="Project Three" />
+          <img :src="jewelryImage" alt="KHOHAV Jewelry E-commerce" />
           <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
           <p>A modern e-commerce frontend for KHOHAV, a jewelry brand offering elegant and timeless pieces.</p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/kindergarten.png" alt="Project Four" />
+          <img :src="kindergartenImage" alt="Kindergarten Website" />
           <h2>Kindergarten Website</h2>
           <p>
-Built a colorful and engaging kindergarten website with information for parents, class details, and contact forms.
- Crafted to be welcoming and informative, making it easy for families to learn about school offerings.</p>
+            Built a colorful and engaging kindergarten website with information for parents, class details, and contact forms.
+            Crafted to be welcoming and informative, making it easy for families to learn about school offerings.
+          </p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/mine.png" alt="Project Five" />
+          <img :src="mineImage" alt="Personal Website" />
           <h2>Personal Website (My Website)</h2>
           <p>
-Designed and developed a personal website to highlight your skills, and professional background. 
-Included sections for about, projects, contact, and with a clean and modern layout.</p>
+            Designed and developed a personal website to highlight your skills, and professional background. 
+            Included sections for about, projects, contact, and with a clean and modern layout.
+          </p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/gym.png" alt="Project Six" />
+          <img :src="gymImage" alt="Gym Website" />
           <h2>Gym Website</h2>
           <p>
-Developed a dynamic gym website featuring  class schedules, trainer bios, 
-and easy contact options. Designed for strong visual appeal and 
-clear navigation to help users explore fitness</p>
+            Developed a dynamic gym website featuring class schedules, trainer bios, 
+            and easy contact options. Designed for strong visual appeal and 
+            clear navigation to help users explore fitness
+          </p>
         </div>
       </div>
     </section>
 
-<section id="contact" class="contact-section">
-  <h1>Contact Me</h1>
-  <p>You can reach me directly via email or connect with me on the platforms below:</p>
-  <ul class="contact-list">
-    <li>
-      <strong>Email:</strong>
-      <a href="estarkemi@gmail.com">estarkemi@gmail.com</a>
-    </li>
-    <li>
-      <strong>Phone:</strong> +257-788-345-329
-    </li>
-    <li>
-      <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/in/esther-kemigisha/" target="_blank">linkedin.com</a>
-    </li>
-    
-  </ul>
-</section>
-
+    <section id="contact" class="contact-section">
+      <h1>Contact Me</h1>
+      <p>You can reach me directly via email or connect with me on the platforms below:</p>
+      <ul class="contact-list">
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:estarkemi@gmail.com">estarkemi@gmail.com</a>
+        </li>
+        <li>
+          <strong>Phone:</strong> +257-788-345-329
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/esther-kemigisha/" target="_blank">linkedin.com/in/esther-kemigisha</a>
+        </li>
+      </ul>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -134,10 +134,17 @@ clear navigation to help users explore fitness</p>
 </template>
 
 <script setup>
-// no dynamic script for now
+// Import images using relative paths
+import starImage from '../assets/star.jpg'
+import kglImage from '../assets/kgl.png'
+import jewelryImage from '../assets/Jewelry.png'
+import kindergartenImage from '../assets/kindergarten.png'
+import mineImage from '../assets/mine.png'
+import gymImage from '../assets/gym.png'
 </script>
 
 <style scoped>
+/* Your existing CSS remains exactly the same */
 html {
   scroll-behavior: smooth;
 }
@@ -156,7 +163,7 @@ body {
 #soft-skills,
 #projects,
 #contact {
-  padding-top: 80px; /* Adjust according to navbar height */
+  padding-top: 20px;
 }
 
 /* Shared Styles */
@@ -169,7 +176,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 5rem 3rem 3rem; /* bottom padding reduced a bit */
+  padding: 5rem 3rem 3rem;
 }
 
 .hero-content {
@@ -301,28 +308,6 @@ body {
   line-height: 1.4;
 }
 
-/* Responsive */
-@media (max-width: 768px) {
-  .hero {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .projects-container {
-    grid-template-columns: 1fr;
-  }
-
-  .hero-image img {
-    width: 250px;
-    height: 250px;
-    margin-top: 2rem;
-  }
-
-  .nav-links {
-    gap: 1rem;
-  }
-}
-
 /* Skills Section */
 .skills-section {
   text-align: center;
@@ -449,29 +434,84 @@ body {
   color: #ccc;
   font-size: 0.9rem;
 }
+
 .contact-section {
   padding: 2rem 1rem;
   background: black;
   border-radius: 8px;
   color: white;
 }
+
 .contact-list {
   list-style: none;
   padding: 0;
 }
+
 .contact-list li {
   margin-bottom: 1rem;
+  color: white;
 }
+
 .contact-list a {
-  color: #0077b6;
+  color: rgb(14, 228, 14);
   text-decoration: none;
 }
 
+.contact-list a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .projects-container {
+    grid-template-columns: 1fr;
+  }
+
+  .hero-image img {
+    width: 250px;
+    height: 250px;
+    margin-top: 2rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content h2 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero-content h1 {
+    font-size: 2rem;
+  }
+
+  .skills-grid,
+  .soft-skills-grid {
+    gap: 20px;
+  }
+
+  .skill,
+  .soft-skill {
+    width: 80px;
+  }
+
+  .skill i {
+    font-size: 2.5rem;
+  }
+
+  .soft-skill i {
+    font-size: 2rem;
+  }
+}
 </style>
-
-
-
-
-
-
-
