@@ -135,7 +135,7 @@
 </template>
 
 <script setup>
-// ✅ Import images using relative paths (must match exact filename case)
+// ✅ Correct image imports with exact file name (case-sensitive)
 import starImage from '../assets/star.jpg'
 import kglImage from '../assets/kgl.png'
 import jewelryImage from '../assets/jewelry.png'
@@ -145,7 +145,7 @@ import gymImage from '../assets/gym.png'
 </script>
 
 <style scoped>
-/* All your existing styles remain unchanged */
+/* Your existing CSS stays exactly the same */
 html {
   scroll-behavior: smooth;
 }
@@ -252,6 +252,7 @@ body {
   }
 }
 </style>
+
 
 
 
