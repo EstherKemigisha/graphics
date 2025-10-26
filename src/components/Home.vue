@@ -2,7 +2,6 @@
   <div>
     <!-- Hero Section -->
     <section id="home" class="home">
-
       <div class="hero">
         <div class="hero-content">
           <h1>Hi, I'm Esther Kemigisha</h1>
@@ -14,30 +13,21 @@
             I build scalable full-stack applications that deliver seamless user experiences.
             Driven by clean UI, usability, and performance optimization.
             Continuously learning and evolving with the latest web technologies.
-            <br><br>
+            <br>
             In addition to web development, I bring strong graphic design skills that help create visually appealing and cohesive user experiences. My expertise includes:
   
-Designing UI mockups, wireframes, and brand assets like logos and icons.
-<br><br>
-Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
+            Designing UI mockups, wireframes, and brand assets like logos and icons.
+            <br><br>
+            Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
 
-Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
-<br><br>
-Combining frontend development and graphic design ensures my applications are both visually striking and highly functional.
+            Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
+            <br>
+            Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
           </p>
-          <!-- <div class="buttons">
-            <button class="btn-primary">Hire Me</button>
-            <button class="btn-outline">Let's Talk</button>
-          </div> -->
-          <!-- <div class="socials">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-linkedin-in"></i></a>
-          </div> -->
         </div>
 
         <div class="hero-image">
-          <img src="/src/assets/star.jpg" alt="Esther" />
+          <img :src="starImage" alt="Esther" />
         </div>
       </div>
     </section>
@@ -79,76 +69,65 @@ Combining frontend development and graphic design ensures my applications are bo
 
       <div class="projects-container">
         <div class="project-card">
-          <img src="/src/assets/kgl.png" alt="Project One" />
-          <h2>KGL-Produce Management System</h2>
+          <img :src="kglImage" alt="KGL Inventory Management System" />
+          <h2>KGL-Inventory Management System</h2>
           <p>A full-stack web app for managing procurement, sales, and credit in a wholesale produce business.</p>
         </div>
+       
         <div class="project-card">
-          <img src="/src/assets/pot.png" alt="Project Two" />
-          <h2>Frontend Portfolio</h2>
-          <p>A personal portfolio site to showcase my work and skills as a frontend developer.</p>
-        </div>
-        <div class="project-card">
-          <img src="/src/assets/jewelry.png" alt="Project Three" />
+          <img :src="jewelryImage" alt="KHOHAV Jewelry E-commerce" />
           <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
           <p>A modern e-commerce frontend for KHOHAV, a jewelry brand offering elegant and timeless pieces.</p>
         </div>
+
         <div class="project-card">
-          <img src="/src/assets/kindergarten.png" alt="Project Four" />
+          <img :src="kindergartenImage" alt="Kindergarten Website" />
           <h2>Kindergarten Website</h2>
           <p>
-Built a colorful and engaging kindergarten website with information for parents, class details, and contact forms.
- Crafted to be welcoming and informative, making it easy for families to learn about school offerings.</p>
+            Built a colorful and engaging kindergarten website with information for parents, class details, and contact forms.
+            Crafted to be welcoming and informative, making it easy for families to learn about school offerings.
+          </p>
         </div>
+
         <div class="project-card">
-          <img src="/src/assets/mine.png" alt="Project Five" />
+          <img :src="mineImage" alt="Personal Website" />
           <h2>Personal Website (My Website)</h2>
           <p>
-Designed and developed a personal website to highlight your skills, and professional background. 
-Included sections for about, projects, contact, and with a clean and modern layout.</p>
+            Designed and developed a personal website to highlight your skills, and professional background. 
+            Included sections for about, projects, contact, and with a clean and modern layout.
+          </p>
         </div>
+
         <div class="project-card">
-          <img src="/src/assets/gym.png" alt="Project Six" />
+          <img :src="gymImage" alt="Gym Website" />
           <h2>Gym Website</h2>
           <p>
-Developed a dynamic gym website featuring  class schedules, trainer bios, 
-and easy contact options. Designed for strong visual appeal and 
-clear navigation to help users explore fitness</p>
+            Developed a dynamic gym website featuring class schedules, trainer bios, 
+            and easy contact options. Designed for strong visual appeal and 
+            clear navigation to help users explore fitness.
+          </p>
         </div>
       </div>
     </section>
 
     <!-- Contact Section -->
-    <!-- <section id="contact" class="contact-section">
+    <section id="contact" class="contact-section">
       <h1>Contact Me</h1>
-      <p class="contact-intro">Feel free to reach out via this form or connect with me on social media.</p>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn-primary">Send Message</button>
-      </form>
-    </section> -->
-
-<section id="contact" class="contact-section">
-  <h1>Contact Me</h1>
-  <p>You can reach me directly via email or connect with me on the platforms below:</p>
-  <ul class="contact-list">
-    <li>
-      <strong>Email:</strong>
-      <a href="estarkemi@gmail.com">estarkemi@gmail.com</a>
-    </li>
-    <li>
-      <strong>Phone:</strong> +257-788-345-329
-    </li>
-    <li>
-      <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
-    </li>
-    <!-- Add more contact methods as needed -->
-  </ul>
-</section>
-
+      <p>You can reach me directly via email or connect with me on the platforms below:</p>
+      <ul class="contact-list">
+        <li>
+          <strong>Email:</strong>
+          <a href="mailto:estarkemi@gmail.com">estarkemi@gmail.com</a>
+        </li>
+        <li>
+          <strong>Phone:</strong> +257-788-345-329
+        </li>
+        <li>
+          <strong>LinkedIn:</strong>
+          <a href="https://www.linkedin.com/in/esther-kemigisha/" target="_blank">linkedin.com/in/esther-kemigisha</a>
+        </li>
+      </ul>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
