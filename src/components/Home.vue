@@ -24,7 +24,6 @@
             <br>
             Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
           </p>
-          
         </div>
 
         <div class="hero-image">
@@ -80,6 +79,7 @@
           <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
           <p>A modern e-commerce frontend for KHOHAV, a jewelry brand offering elegant and timeless pieces.</p>
         </div>
+
         <div class="project-card">
           <img :src="kindergartenImage" alt="Kindergarten Website" />
           <h2>Kindergarten Website</h2>
@@ -88,6 +88,7 @@
             Crafted to be welcoming and informative, making it easy for families to learn about school offerings.
           </p>
         </div>
+
         <div class="project-card">
           <img :src="mineImage" alt="Personal Website" />
           <h2>Personal Website (My Website)</h2>
@@ -96,18 +97,20 @@
             Included sections for about, projects, contact, and with a clean and modern layout.
           </p>
         </div>
+
         <div class="project-card">
           <img :src="gymImage" alt="Gym Website" />
           <h2>Gym Website</h2>
           <p>
             Developed a dynamic gym website featuring class schedules, trainer bios, 
             and easy contact options. Designed for strong visual appeal and 
-            clear navigation to help users explore fitness
+            clear navigation to help users explore fitness.
           </p>
         </div>
       </div>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact-section">
       <h1>Contact Me</h1>
       <p>You can reach me directly via email or connect with me on the platforms below:</p>
@@ -132,16 +135,6 @@
     </footer>
   </div>
 </template>
-
-<script setup>
-// Import images using relative paths with exact filename case
-import starImage from '../assets/star.jpg'
-import kglImage from '../assets/kgl.png'
-import jewelryImage from '../assets/jewelry.png'
-import kindergartenImage from '../assets/kindergarten.png'
-import mineImage from '../assets/mine.png'
-import gymImage from '../assets/gym.png'
-</script>
 
 <style scoped>
 /* Your existing CSS remains exactly the same */
