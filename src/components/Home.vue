@@ -15,11 +15,9 @@
             Continuously learning and evolving with the latest web technologies.
             <br>
             In addition to web development, I bring strong graphic design skills that help create visually appealing and cohesive user experiences. My expertise includes:
-  
             Designing UI mockups, wireframes, and brand assets like logos and icons.
             <br><br>
             Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
-
             Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
             <br>
             Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
@@ -73,7 +71,7 @@
           <h2>KGL-Inventory Management System</h2>
           <p>A full-stack web app for managing procurement, sales, and credit in a wholesale produce business.</p>
         </div>
-       
+
         <div class="project-card">
           <img :src="jewelryImage" alt="KHOHAV Jewelry E-commerce" />
           <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
@@ -136,8 +134,18 @@
   </div>
 </template>
 
+<script setup>
+// ✅ Import images using relative paths (must match exact filename case)
+import starImage from '../assets/star.jpg'
+import kglImage from '../assets/kgl.png'
+import jewelryImage from '../assets/jewelry.png'
+import kindergartenImage from '../assets/kindergarten.png'
+import mineImage from '../assets/mine.png'
+import gymImage from '../assets/gym.png'
+</script>
+
 <style scoped>
-/* Your existing CSS remains exactly the same */
+/* All your existing styles remain unchanged */
 html {
   scroll-behavior: smooth;
 }
@@ -150,7 +158,6 @@ body {
   color: black;
 }
 
-/* Add padding top to sections to avoid being hidden behind fixed navbar */
 .home,
 #skills,
 #soft-skills,
@@ -159,7 +166,6 @@ body {
   padding-top: 20px;
 }
 
-/* Shared Styles */
 .home {
   min-height: 100vh;
   background-color: #0b1120;
@@ -193,7 +199,6 @@ body {
   text-decoration: underline;
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
@@ -247,3 +252,4 @@ body {
   }
 }
 </style>
+
