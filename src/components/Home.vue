@@ -15,11 +15,9 @@
             Continuously learning and evolving with the latest web technologies.
             <br>
             In addition to web development, I bring strong graphic design skills that help create visually appealing and cohesive user experiences. My expertise includes:
-  
             Designing UI mockups, wireframes, and brand assets like logos and icons.
             <br><br>
             Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
-
             Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
             <br>
             Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
@@ -73,7 +71,7 @@
           <h2>KGL-Inventory Management System</h2>
           <p>A full-stack web app for managing procurement, sales, and credit in a wholesale produce business.</p>
         </div>
-       
+
         <div class="project-card">
           <img :src="jewelryImage" alt="KHOHAV Jewelry E-commerce" />
           <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
@@ -137,7 +135,7 @@
 </template>
 
 <script setup>
-// ✅ Correct imports (case-sensitive filenames)
+// ✅ Correct image imports with exact file name (case-sensitive)
 import starImage from '../assets/star.jpg'
 import kglImage from '../assets/kgl.png'
 import jewelryImage from '../assets/jewelry.png'
@@ -147,6 +145,7 @@ import gymImage from '../assets/gym.png'
 </script>
 
 <style scoped>
+/* Your existing CSS stays exactly the same */
 html {
   scroll-behavior: smooth;
 }
@@ -253,5 +252,6 @@ body {
   }
 }
 </style>
+
 
 
