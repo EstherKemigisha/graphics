@@ -6,24 +6,22 @@
       <div class="hero">
         <div class="hero-content">
           <h1>Hi, I'm Esther Kemigisha</h1>
-          <h2>Software Developer</h2>
+          <h2>Full-Stack Software Developer</h2>
           <p>
-            I'm a passionate Developer focused on creating intuitive and responsive user interfaces.
-            Skilled in HTML, CSS, JavaScript, Vue.js, and React, with backend experience in Node.js and MongoDB.
+            I'm a passionate full-stack developer specializing in creating intuitive, responsive web applications.
+            With expertise in HTML, CSS, JavaScript, TypeScript, Tailwind CSS, Vue.js, React, Node.js, NestJS, and MongoDB, I build scalable solutions
+            that deliver exceptional user experiences.
             <br /><br />
-            I build scalable full-stack applications that deliver seamless user experiences.
-            Driven by clean UI, usability, and performance optimization.
-            Continuously learning and evolving with the latest web technologies.
-            <br>
-            In addition to web development, I bring strong graphic design skills that help create visually appealing and cohesive user experiences. My expertise includes:
-  
-Designing UI mockups, wireframes, and brand assets like logos and icons.
-<br><br>
-Producing graphics for web and social media using tools such as Photoshop, Illustrator, and Figma.
-
-Seamlessly integrating visuals with frontend code for polished, brand-consistent results.
-<br>
-Combining frontend development and my backend ensures my applications are both visually striking and highly functional.
+            My focus is on clean code, modern UI design, and performance optimization. I thrive on solving complex
+            problems and continuously learning emerging technologies to stay at the forefront of web development.
+            <br /><br />
+            Beyond coding, I bring strong graphic design skills that enhance user experiences through:
+            <br />• UI/UX design with wireframes, mockups, and brand assets
+            <br />• Visual content creation using Photoshop, Illustrator, and Figma
+            <br />• Seamless integration of design and development for cohesive results
+            <br /><br />
+            This unique combination of technical expertise and design sensibility allows me to create applications
+            that are both visually stunning and highly functional.
           </p>
           
         </div>
@@ -66,46 +64,41 @@ Combining frontend development and my backend ensures my applications are both v
     <section id="projects" class="projects-section">
       <h1>Projects</h1>
       <p class="intro-text">
-        Here is a selection of projects that I have worked on. Each project highlights my skills in both frontend and backend development, as well as my ability to design engaging user experiences.
+        Here's a showcase of projects that demonstrate my expertise in full-stack development, 
+        UI/UX design, and modern web technologies. Each project reflects my commitment to 
+        creating functional, visually appealing, and user-centered solutions.
       </p>
 
       <div class="projects-container">
-        <div class="project-card">
-          <img src="/src/assets/kgl.png" alt="Project One" />
-          <h2>KGL-Produce Management System</h2>
-          <p>A full-stack web app for managing procurement, sales, and credit in a wholesale produce business.</p>
+        <div class="project-card" onclick="window.open('https://karibu-7r7t.onrender.com/', '_blank')" style="cursor: pointer;">
+          <img src="/src/assets/kgl.png" alt="KGL Produce Management System" />
+          <h2>KGL Produce Management System</h2>
+          <p>A comprehensive full-stack web application for managing procurement, sales, and credit operations in wholesale produce business with real-time inventory tracking.</p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/pot.png" alt="Project Two" />
-          <h2>Frontend Portfolio</h2>
-          <p>A personal portfolio site to showcase my work and skills as a frontend developer.</p>
+          <img src="/src/assets/pot.png" alt="Frontend Portfolio" />
+          <h2>Personal Portfolio Website</h2>
+          <p>A responsive portfolio showcasing my development skills, built with modern web technologies and featuring interactive UI components.</p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/jewelry.png" alt="Project Three" />
-          <h2>Practice-KHOHAV – Jewelry E-commerce Website</h2>
-          <p>A modern e-commerce frontend for KHOHAV, a jewelry brand offering elegant and timeless pieces.</p>
+          <img src="/src/assets/jewelry.png" alt="KHOHAV Jewelry E-commerce" />
+          <h2>KHOHAV – Jewelry E-commerce Platform</h2>
+          <p>An elegant e-commerce frontend for a luxury jewelry brand, featuring sophisticated product displays and seamless shopping experience.</p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/kindergarten.png" alt="Project Four" />
-          <h2>Kindergarten Website</h2>
-          <p>
-Built a colorful and engaging kindergarten website with information for parents, class details, and contact forms.
- Crafted to be welcoming and informative, making it easy for families to learn about school offerings.</p>
+          <img src="/src/assets/kindergarten.png" alt="Kindergarten Website" />
+          <h2>Kindergarten Educational Website</h2>
+          <p>A vibrant, family-friendly website featuring class information, enrollment forms, and engaging content designed to connect with parents and showcase educational programs.</p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/mine.png" alt="Project Five" />
-          <h2>Personal Website (My Website)</h2>
-          <p>
-Designed and developed a personal website to highlight your skills, and professional background. 
-Included sections for about, projects, contact, and with a clean and modern layout.</p>
+          <img src="/src/assets/mine.png" alt="Personal Website" />
+          <h2>Professional Portfolio Site</h2>
+          <p>A clean, modern personal website highlighting professional background, skills, and achievements with intuitive navigation and responsive design.</p>
         </div>
         <div class="project-card">
-          <img src="/src/assets/gym.png" alt="Project Six" />
-          <h2>Gym Website</h2>
-          <p>
-Developed a dynamic gym website featuring  class schedules, trainer bios, 
-and easy contact options. Designed for strong visual appeal and 
-clear navigation to help users explore fitness</p>
+          <img src="/src/assets/gym.png" alt="Fitness Center Website" />
+          <h2>Fitness Center Website</h2>
+          <p>A dynamic fitness website featuring class schedules, trainer profiles, and membership information with strong visual appeal and user-friendly navigation.</p>
         </div>
       </div>
     </section>
@@ -123,28 +116,27 @@ clear navigation to help users explore fitness</p>
     </section> -->
 
 <section id="contact" class="contact-section">
-  <h1>Contact Me</h1>
-  <p>You can reach me directly via email or connect with me on the platforms below:</p>
+  <h1>Let's Connect</h1>
+  <p>I'm always open to discussing new opportunities, collaborations, or just connecting with fellow developers. Feel free to reach out!</p>
   <ul class="contact-list">
     <li>
       <strong>Email:</strong>
-      <a href="estarkemi@gmail.com">estarkemi@gmail.com</a>
+      <a href="mailto:estarkemi@gmail.com">estarkemi@gmail.com</a>
     </li>
     <li>
       <strong>Phone:</strong> +257-788-345-329
     </li>
     <li>
       <strong>LinkedIn:</strong>
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/yourprofile</a>
+      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">Connect with me on LinkedIn</a>
     </li>
-    <!-- Add more contact methods as needed -->
   </ul>
 </section>
 
 
     <!-- Footer -->
     <footer class="footer">
-      <p>&copy; 2025 Esther.dev. All rights reserved.</p>
+      <p>&copy; 2026 Esther.dev. All rights reserved.</p>
     </footer>
   </div>
 </template>
@@ -291,6 +283,7 @@ body {
   border-radius: 12px;
   text-align: left;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid transparent;
 }
 
 .project-card img {
@@ -299,11 +292,17 @@ body {
   object-fit: cover;
   border-radius: 8px;
   margin-bottom: 12px;
+  transition: transform 0.3s ease;
 }
 
 .project-card:hover {
   transform: translateY(-8px);
   box-shadow: 0 8px 16px rgba(0, 255, 255, 0.3);
+  border-color: rgba(14, 228, 14, 0.3);
+}
+
+.project-card:hover img {
+  transform: scale(1.02);
 }
 
 .project-card h2 {
@@ -318,24 +317,191 @@ body {
 }
 
 /* Responsive */
+@media (max-width: 1024px) {
+  .hero {
+    padding: 3rem 2rem;
+  }
+  
+  .projects-container {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.8rem;
+  }
+}
+
 @media (max-width: 768px) {
   .hero {
     flex-direction: column;
     text-align: center;
+    padding: 2rem 1.5rem;
+  }
+  
+  .hero-content {
+    max-width: 100%;
+  }
+  
+  .hero-content h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .hero-content p {
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
   }
 
   .projects-container {
     grid-template-columns: 1fr;
+    gap: 20px;
+    padding: 0 1rem;
+  }
+  
+  .projects-section {
+    padding: 30px 15px;
+  }
+  
+  .projects-section h1 {
+    font-size: 2rem;
   }
 
   .hero-image img {
-    width: 250px;
-    height: 250px;
+    width: 280px;
+    height: 280px;
     margin-top: 2rem;
   }
+  
+  .skills-section,
+  .soft-skills-section,
+  .contact-section {
+    padding: 40px 15px;
+  }
+  
+  .skills-section h1,
+  .soft-skills-section h1,
+  .contact-section h1 {
+    font-size: 2rem;
+  }
+  
+  .skills-grid,
+  .soft-skills-grid {
+    gap: 20px;
+  }
+  
+  .skill,
+  .soft-skill {
+    width: 80px;
+  }
+  
+  .skill i {
+    font-size: 2.5rem;
+  }
+  
+  .soft-skill i {
+    font-size: 2rem;
+  }
+}
 
-  .nav-links {
-    gap: 1rem;
+@media (max-width: 480px) {
+  .hero {
+    padding: 1.5rem 1rem;
+  }
+  
+  .hero-content h1 {
+    font-size: 1.8rem;
+  }
+  
+  .hero-content h2 {
+    font-size: 1.4rem;
+  }
+  
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+  
+  .hero-image img {
+    width: 220px;
+    height: 220px;
+    margin-top: 1.5rem;
+  }
+  
+  .projects-section,
+  .skills-section,
+  .soft-skills-section,
+  .contact-section {
+    padding: 30px 10px;
+  }
+  
+  .projects-section h1,
+  .skills-section h1,
+  .soft-skills-section h1,
+  .contact-section h1 {
+    font-size: 1.8rem;
+  }
+  
+  .intro-text {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+  
+  .project-card {
+    padding: 12px;
+  }
+  
+  .project-card h2 {
+    font-size: 1.1rem;
+  }
+  
+  .project-card p {
+    font-size: 0.85rem;
+  }
+  
+  .skills-grid {
+    gap: 15px;
+  }
+  
+  .skill {
+    width: 70px;
+    font-size: 0.85rem;
+  }
+  
+  .skill i {
+    font-size: 2rem;
+  }
+  
+  .soft-skills-grid {
+    gap: 15px;
+  }
+  
+  .soft-skill {
+    width: 90px;
+    font-size: 0.85rem;
+  }
+  
+  .soft-skill i {
+    font-size: 1.8rem;
+  }
+  
+  .contact-list li {
+    font-size: 0.9rem;
+    margin-bottom: 0.8rem;
+  }
+  
+  .footer {
+    font-size: 0.8rem;
+    padding: 15px;
   }
 }
 
@@ -366,11 +532,21 @@ body {
   font-size: 1rem;
   color: #fff;
   width: 100px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover {
+  transform: translateY(-5px);
 }
 
 .skill i {
   font-size: 3rem;
   margin-bottom: 10px;
+  transition: transform 0.3s ease;
+}
+
+.skill:hover i {
+  transform: scale(1.1);
 }
 
 /* Soft Skills */
@@ -401,12 +577,22 @@ body {
   color: #fff;
   width: 120px;
   text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.soft-skill:hover {
+  transform: translateY(-5px);
 }
 
 .soft-skill i {
   font-size: 2.5rem;
   margin-bottom: 10px;
   color: rgb(14, 228, 14);
+  transition: transform 0.3s ease;
+}
+
+.soft-skill:hover i {
+  transform: scale(1.1);
 }
 
 /* Contact Section */
