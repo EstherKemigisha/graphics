@@ -103,17 +103,6 @@
       </div>
     </section>
 
-    <!-- Contact Section -->
-    <!-- <section id="contact" class="contact-section">
-      <h1>Contact Me</h1>
-      <p class="contact-intro">Feel free to reach out via this form or connect with me on social media.</p>
-      <form class="contact-form">
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea rows="5" placeholder="Your Message" required></textarea>
-        <button type="submit" class="btn-primary">Send Message</button>
-      </form>
-    </section> -->
 
 <section id="contact" class="contact-section">
   <h1>Let's Connect</h1>
